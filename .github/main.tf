@@ -6,7 +6,7 @@ resource "google_cloud_run_service" "cloud-run-with-tf" {
     spec {
       containers {
         #image = "gcr.io/striped-bastion-375620/cloudrun:latest"
-        image = "gcr.io/striped-bastion-375620/cloudrun:V4"
+        image = "gcr.io/striped-bastion-375620/cloudrun:V5"
       }
     }
   }
